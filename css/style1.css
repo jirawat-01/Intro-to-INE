@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tahoma", "Sarabun", sans-serif;
+}
+
+/* โครงร่างหลัก */
+body {
+    background: #fff;
+    color: #000;
+}
+
+/* Header */
+header {
+    background: #ff4902; 
+    color: black;
+    text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background: #555;
+}
+
+/* Search box */
+.search-box {
+    float: right;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-box input[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    background: magenta;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Content */
+.content {
+    flex: 3;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    background: #333; /* เหลือง */
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    background: #777777;
+    color: white;
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background: #555;
+}
+
+/* ตาราง */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #ff4d4d;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+}
+
+tfoot td {
+    background: #ff4902; /* ชมพู */
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    background: #ff4902; /* ชมพู */
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}

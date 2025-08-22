@@ -1,0 +1,93 @@
+/* ------------------- Reset ------------------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ------------------- Header ------------------- */
+header {
+  background: #ff4902;     /* สีแดง */
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* ------------------- Top Navigation ------------------- */
+.topnav {
+  background: #333;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.topnav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.topnav .search-box {
+  float: right;
+}
+
+.topnav input {
+  padding: 5px;
+}
+
+.topnav button {
+  padding: 5px 10px;
+  background: magenta;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* ------------------- Layout ------------------- */
+main {
+  display: flex;  /* แบ่งเป็น content + sidebar */
+}
+
+.content {
+  flex: 3;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  background: #333;  /* สีเหลือง */
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  background: #777777;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* ------------------- Profile Page ------------------- */
+.content h2 {
+  margin-top: 0;
+}
+
+.image-row {
+  display: flex;       /* จัดรูปเรียงแนวนอน */
+  gap: 20px;           /* ระยะห่างระหว่างรูป */
+  margin-top: 20px;
+}
+
+.image-row img {
+  width: 200px;        /* กำหนดขนาดรูป */
+  border-radius: 10px; /* มุมโค้งมน */
+}
+
+/* ------------------- Footer ------------------- */
+footer {
+  background: #ff4902;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
